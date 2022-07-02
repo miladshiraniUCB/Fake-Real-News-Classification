@@ -11,7 +11,7 @@ The data that we are using are from different online sources which are:
 
 
     * Fake.csv.zip
-    *True.csv.zip
+    * True.csv.zip
     
 2.[Source based Fake News Classification]
 (https://www.kaggle.com/datasets/ruchi798/source-based-news-classification?select=news_articles.csv). The data sets we use are:
