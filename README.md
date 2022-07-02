@@ -6,18 +6,18 @@ One main approach to filtering out fake news is using machine learning models su
 
 ## Data Sources
 
-The data that we are using are from different online sources which are:
+We use 76525 news and tweets which are from different online sources. These sources are:
 
-1. [Fake and real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). The data sets we use are:
-
-    
-2. [Source based Fake News Classification](https://www.kaggle.com/datasets/ruchi798/source-based-news-classification?select=news_articles.csv). The data sets we use are:
-
-
-3. [REAL and FAKE news dataset](https://www.kaggle.com/datasets/nopdev/real-and-fake-news-dataset?select=news.csv). The data sets we use are:
+1. [Fake and real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). This source contains 44898 data.
 
     
-4. [GitHub Repo](https://github.com/KaiDMML/FakeNewsNet). The data sets we use are:
+2. [Source based Fake News Classification](https://www.kaggle.com/datasets/ruchi798/source-based-news-classification?select=news_articles.csv). This source contains 2096 data
+
+
+3. [REAL and FAKE news dataset](https://www.kaggle.com/datasets/nopdev/real-and-fake-news-dataset?select=news.csv). This source contains 6335 data.
+
+    
+4. [GitHub Repo](https://github.com/KaiDMML/FakeNewsNet). This source contains 23196 data.
     
     
 ## Project Structure
