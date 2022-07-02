@@ -3,7 +3,9 @@
 Advances in technology and social medias have made access to sources of information easier compared to decades ago. In the past, reporters gathered information about an event, then the news was published by a publishing company., By contrast, these days people have the ability to post and publish any news they are exposed to. This has advantages and disadvantages. On one hand, social media companies such as Twitter have made it easier to post and publish news regarding an event much faster than ever; this makes many people more informed. On the other hand, this easy way of publishing and posting news resulted in the existence of an enormous volume of fake news. Therefore, it is important for these platforms to be able to filter out fake news by using different methods.
 
 One main approach to filtering out fake news is using machine learning models such as logistic regression, decision trees, and neural networks. To use these models, it is important to convert text to numerical data. To convert words to numbers, first we need to clean the data and remove the words or information that may not help us categorize the data. After that, we must convert cleaned sentences to individual words called “tokens.” This allows us to design a map that transforms tokenized data into numbers. There are several libraries that we may introduce for these purposes such as NLTK, Spacy, Textbloob etc. In this work, however, we will use NLTK to tokenize the data.
- 
+
+## Data Sources
+
 The data that we are using are from different online sources which are:
 
 1. [Fake and real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). The data sets we use are:
@@ -18,6 +20,8 @@ The data that we are using are from different online sources which are:
 4. [GitHub Repo](https://github.com/KaiDMML/FakeNewsNet). The data sets we use are:
     
     
+## Project Structure
+
 The structure of this project is as follows:
 
 1. **EDA-part-1-Cleaning-Tokenization-Lammatization**. In this notebook we clean the data, and then we tokenize and lemattize the data. This notebook is located in the “EDA” folder.
@@ -33,11 +37,28 @@ The structure of this project is as follows:
 6. **Modeling_NN_Transfer_Learning**. This is the last series of modeling notebooks. In this notebook, we use available embedding layers from [TensorFlow Hub](tfhub.dev) and will use them in a neural network to train the rest of the neural network and test its performance on the testing data. 
     
 
+## Some Visualizations
+
+After performing EDA steps, we realized that the top-10 most common words in the news are:
+
+![](./common-words.png)
+
+Moreover, we realized that the number of url links in the fake news are more than
+the total number of url links in the real news as shown below:
+
+
+![](./totanl_num_of_urls_in_each_news_category.png)
+
+
+## Final Model
+
 The model we introduce as a final model is the **3rd finetuned model** from the last notebook (Modeling_NN_Transfer_Learning) and the result of the model on the training and test sets are shown below.
 
 
-![model_trained_3_df](./model_trained_3_df.jpg)
+![](./model_trained_3_df.jpg)
 
 
-We would recommend to use combination of different layers in addition to the embedding layer such as [LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM) or [Conv1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D) and also we would recommend to optimize the hyperparameters of the model by using [optuna](https://optuna.org/) . 
+## Recommendations to Improve the Model
+
+We would recommend to gather more data and also to use combination of different layers in addition to the embedding layer such as [LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM) or [Conv1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D) and also we would recommend to optimize the hyperparameters of the model by using [optuna](https://optuna.org/) . 
 
