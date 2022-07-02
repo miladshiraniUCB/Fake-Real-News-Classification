@@ -6,31 +6,16 @@ One main approach to filtering out fake news is using machine learning models su
  
 The data that we are using are from different online sources which are:
 
-1. [Fake and real news dataset]
-(https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). The data sets we use are:
+1. [Fake and real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). The data sets we use are:
 
-
-    * Fake.csv.zip
-    * True.csv.zip
     
-2.[Source based Fake News Classification]
-(https://www.kaggle.com/datasets/ruchi798/source-based-news-classification?select=news_articles.csv). The data sets we use are:
+2.[Source based Fake News Classification](https://www.kaggle.com/datasets/ruchi798/source-based-news-classification?select=news_articles.csv). The data sets we use are:
 
-    * news_articles.csv.zip
-    
 
-3. [REAL and FAKE news dataset]
-(https://www.kaggle.com/datasets/nopdev/real-and-fake-news-dataset?select=news.csv). The data sets we use are:
- 
-    * news.csv
+3. [REAL and FAKE news dataset](https://www.kaggle.com/datasets/nopdev/real-and-fake-news-dataset?select=news.csv). The data sets we use are:
+
     
-4. [GitHub Repo]
-(https://github.com/KaiDMML/FakeNewsNet). The data sets we use are:
- 
-    * politifact_fake.csv
-    * politifact_real.csv
-    * gossipcop_fake.csv
-    * gossipcop_real.csv
+4. [GitHub Repo](https://github.com/KaiDMML/FakeNewsNet). The data sets we use are:
     
     
 The structure of this project is as follows:
