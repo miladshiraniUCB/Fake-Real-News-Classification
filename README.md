@@ -38,3 +38,6 @@ The model we introduce as a final model is the **3rd finetuned model** from the 
 
 ![model_trained_3_df](./model_trained_3_df.jpg)
 
+
+We would recommend to use combination of different layers in addition to the embedding layer such as [LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM) or [Conv1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D) and also we would recommend to optimize the hyperparameters of the model by using [optuna](https://optuna.org/) . 
+
