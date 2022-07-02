@@ -36,5 +36,5 @@ The structure of this project is as follows:
 The model we introduce as a final model is the **3rd finetuned model** from the last notebook (Modeling_NN_Transfer_Learning) and the result of the model on the training and test sets are shown below.
 
 
-![model_trained_3_df](/Users/miladshirani/Documents/Flatiron/phase_4/phase-4-final-project/Fake-Real-News-Classification/Modeling/results_of_TL_NN/model_trained_3_df.png)
+![](./model_trained_3_df.png)
 
