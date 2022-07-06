@@ -52,11 +52,13 @@ the total number of url links in the real news as shown below:
 
 ## Final Model
 
-The model we introduce as a final model is the **3rd finetuned model** from the last notebook (Modeling_NN_Transfer_Learning) and the result of the model on the training and test sets are shown below.
+The model we introduce as a final model is the **3rd model** from the last notebook (Modeling_NN_Transfer_Learning) and the result of the model on the training and test sets are shown below.
 
 
-![](./model_trained_3_df.jpg)
+![](./model_3_df.jpg)
 
+The models introduced in this project may be used by social medias such as twitter 
+to detect and filter out fake news from real news.
 
 ## Recommendations to Improve the Model
 
