@@ -49,6 +49,11 @@ the total number of url links in the real news as shown below:
 
 ![](./totanl_num_of_urls_in_each_news_category.png)
 
+However, we see that the total number of real news that contain url links are 
+more than the total number of fake news with url links as shown below:
+
+![](./news_with_urls.png)
+
 
 ## Final Model
 
