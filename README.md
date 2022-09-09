@@ -69,16 +69,16 @@ to detect and filter out fake news from real news.
 
 We would recommend to gather more data and also to use combination of different layers in addition to the embedding layer such as [LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM) or [Conv1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D) and also we would recommend to optimize the hyperparameters of the model by using [optuna](https://optuna.org/).
 
+
+
 ## Repository Structure
 
-"""
-├── Images: Images for README
-├── Notebook: Modeling Notebooks
-├── PDFs: PDF files of the notebooks and Presentation
-├── Project-Presentation-LaTeX-Files: LaTeX files of the presentation
-├── Toronto-Data : data used for modeling
-├── Train-Test-Split: dataframes for creating train and test sets
-├── mel_spectrogram: mel spectrograms of the audio files to be used for modeling
+```
+├── Data : data used for modeling
+├── PDFs : PDFs of the presention and notebooks
+├── Images : images used in readme
 ├── README.md : project information and repository structure
-"""
+├── EDA Notebooks : Notebooks for preparing data
+└── Modeling Notebooks: This folder contains models' notebooks 
+```
 
