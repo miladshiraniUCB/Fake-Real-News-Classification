@@ -41,18 +41,18 @@ The structure of this project is as follows:
 
 After performing EDA steps, we realized that the top-10 most common words in the news are:
 
-![](./common-words.png)
+![](./Images/common-words.png)
 
 Moreover, we realized that the number of url links in the fake news are more than
 the total number of url links in the real news as shown below:
 
 
-![](./totanl_num_of_urls_in_each_news_category.png)
+![](./Images/totanl_num_of_urls_in_each_news_category.png)
 
 However, we see that the total number of real news that contain url links are 
 more than the total number of fake news with url links as shown below:
 
-![](./news_with_urls.png)
+![](./Images/news_with_urls.png)
 
 
 ## Final Model
@@ -67,5 +67,18 @@ to detect and filter out fake news from real news.
 
 ## Recommendations to Improve the Model
 
-We would recommend to gather more data and also to use combination of different layers in addition to the embedding layer such as [LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM) or [Conv1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D) and also we would recommend to optimize the hyperparameters of the model by using [optuna](https://optuna.org/) . 
+We would recommend to gather more data and also to use combination of different layers in addition to the embedding layer such as [LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM) or [Conv1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D) and also we would recommend to optimize the hyperparameters of the model by using [optuna](https://optuna.org/).
+
+## Repository Structure
+
+"""
+├── Images: Images for README
+├── Notebook: Modeling Notebooks
+├── PDFs: PDF files of the notebooks and Presentation
+├── Project-Presentation-LaTeX-Files: LaTeX files of the presentation
+├── Toronto-Data : data used for modeling
+├── Train-Test-Split: dataframes for creating train and test sets
+├── mel_spectrogram: mel spectrograms of the audio files to be used for modeling
+├── README.md : project information and repository structure
+"""
 
