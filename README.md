@@ -60,7 +60,7 @@ more than the total number of fake news with url links as shown below:
 The model we introduce as a final model is the **3rd model** from the last notebook (Modeling_NN_Transfer_Learning) and the result of the model on the training and test sets are shown below.
 
 
-![](./Images/model_3_df.jpg)
+![](./Images/model_3_df.png)
 
 The models introduced in this project may be used by social medias such as twitter 
 to detect and filter out fake news from real news.
